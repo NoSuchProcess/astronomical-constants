@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2013
+Selected Astronomical Constants, 2014
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2014.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -9,20 +9,21 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 | The IAU 2009 System of Astronomical Constants (1) as published in the Report of the IAU Working Ground on Numerical Standards |
-| for  Fundamental Astronomy  (2011),  (2) planetary equatorial radii,  taken from  the report of  the IAU WG  on  Cartographic |
-| Coordinates and Rotational Elements: 2009 (2011), and lastly (3) other useful constants. For each quantity the list tabulates |
-| its description, symbol  and  value,  and to the right,  as appropriate, its uncertainty in units  that the quantity is given |
-| in.  Further information is given at the end of this file.                                                                    |
+| for Fundamental Astronomy (NSFA, 2011), and updated by resolution B2 of the IAU XXVIII General Assembly (2012), (2) planetary |
+| equatorial radii,  taken from the report of the IAU WG on Cartographic Coordinates and Rotational Elements: 2009 (2011),  and |
+| lastly (3) other useful constants.  For each quantity the list tabulates its description, symbol and value, and to the right, |
+| as appropriate, its uncertainty in units that the quantity is given in. Further information is given at the end of this file. |
+|                                                                                                                               |
 |---|---------------------------------------------------------------------------------------------------------------------------|
 |   | Description of Quantity                   |           Symbol = Value               | Unit                   | Uncertainty |
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|+++++++++++++|
-|1  | IAU 2009 System of Astronomical Constants                                                                                 |
+|1  | IAU 2009/2012 System of Astronomical Constants                                                                            |
 |   |---------------------------------------------------------------------------------------------------------------------------|
 |1.1|Natural Defining Constant:                 |                                        |                        |             |
 |   | Speed of light                            |               c  = 299792458           | m/s                    |             |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.2|Auxiliary Defining Constants:              |                                        |                        |             |
-|   | Gaussian gravitational constant           |                k = 0.01720209895       |                        |             |
+|   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      |             |
 |   | 1-d(TT)/d(TCG)                            |              L_G = 6.969290134D-10     |                        |             |
 |   | 1-d(TDB)/d(TCB)                           |              L_B = 1.550519768D-08     |                        |             |
 |   | TDB-TCB at T_0 = 2443144.5003725          |            TDB_0 = -6.55D-05           | s                      |             |
@@ -33,11 +34,10 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The 
 |   | Constant of gravitation                   |                G = 6.67428D-11         | m^3/kg/s^2             | +/- 6.7D-15 |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.4|Other Constants:                           |                                        |                        |             |
-|   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      | +/- 3       |
 |   | Average value of 1-d(TCG)/d(TCB)          |              L_C = 1.48082686741D-08   |                        | +/- 2D-17   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.5|Body Constants:                            |                                        |                        |             |
-|   | Heliocentric gravitational constant       | GMS = A^3k^2/D^2 = 1.32712442099D20    | m^3/s^2 (TCB)          | +/- 1D10    |
+|   | Solar mass parameter#                     |              GMS = 1.32712442099D20    | m^3/s^2 (TCB)          | +/- 1D10    |
 |   |                                           |                  = 1.32712440041D20    | m^3/s^2 (TDB)          | +/- 1D10    |
 |   | Equatorial radius for Earth               |        a_E = a_e = 6378136.6           | m       (TT)           | +/- 0.1     |
 |   | Dynamical form-factor for the Earth       |              J_2 = 0.0010826359        |                        | +/- 1D-10   |
@@ -46,7 +46,7 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The 
 |   |                                           |                  = 3.986004415D14      | m^3/s^2 (TT)           | +/- 8D05    |
 |   |                                           |                  = 3.986004356D14      | m^3/s^2 (TDB)          | +/- 8D05    |
 |   | Potential of the geoid                    |              W_0 = 6.26368560D07       | m^2/s^2                | +/- 0.5     |
-|   | Nominal mean angular vel.of Earth rotation|            omega = 7.292115D0-5        | rad/s   (TT)           |             |
+|   | Nominal mean angular vel.of Earth rotation|            omega = 7.292115D-05        | rad/s   (TT)           |             |
 |   | Mass Ratio: Moon to Earth                 |        M_M / M_E = 1.23000371D-02      |                        | +/- 4D-10   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |   | Ratio of the Mass of the Sun to the Mass of the Body*                              |                        |             |
@@ -88,8 +88,8 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The 
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |3  |Other Constants                                                                                                            |
 |   |---------------------------------------------------------------------------------------------------------------------------|
-|   | Light-time for unit distance#             |      tau_A = A/c = 499.00478384        | s                      | +/-  1D-08  |
-|   |                                           |          1/tau_A = 173.144632674       | au/d                   | +/-  3D-09  |
+|   | Light-time for unit distance#             |      tau_A = A/c = 499.00478384        | s                      |             |
+|   |                                           |          1/tau_A = 173.144632674       | au/d                   |             |
 |   |                                           |                                        |                        |             |
 |   | Mass Ratio: Earth to Moon                 |  M_E/M_M = 1/mu  =     81.300568       |                        | +/-  3D-06  |
 |   | Mass Ratio: Sun to Earth                  |         GMS/GME  = 332946.0487         |                        | +/-  0.0007 |
@@ -138,13 +138,10 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2013.  The 
 | time-scales.  In order  to  specify  this (TDB) or (TCB) or (TT), as appropriate, is included after the unit to indicate that |
 | the value of the constant is compatible with the specified time-scale, for example, TDB-compatible.                           |
 |                                                                                                                               |
-| The astronomical unit of mass is the mass of the Sun (M_S).  The dimensions of k^2 are those of the constant of gravitation   |
-| (G), which are A^3/M_S/D^2, i.e. m^3/kg/s^2.                                                                                  |
-|                                                                                                                               |
-| #The astronomical unit# of length  (the  au) in  metres  is that length A = cube root of (GMS*D^2/k^2), where k, the Gaussian |
-| gravitational constant and GMS, the heliocentric gravitational constant (TDB-compatible value), are tabulated on the previous |
-| page.  Note: that at present (2011  September) the au is considered to be TDB-compatible and no TCB-compatible value has been |
-| agreed.                                                                                                                       |
+| #The astronomical unit# of length (the  au) in  metres is re-defined (resolution B2, IAU XXVIII GA 2012) to be a conventional |
+| unit of length in agreement with the value adopted in the IAU 2009 Resolution B2;  it is to be used with all time scales such |
+| as TCB, TDB, TCG, TT, etc.  Also the  heliocentric gravitational constant GMS  is renamed the  solar mass parameter.  Further |
+| information is given at the end of Section L {\it Notes and References\/}.                                                    |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2011 August 30                                                                                                               |
+|  2012 December 31                                                                                                             |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
