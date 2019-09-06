@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2016
+Selected Astronomical Constants, 2017
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2017.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -17,13 +17,13 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The 
 |---|---------------------------------------------------------------------------------------------------------------------------|
 |   | Description of Quantity                   |           Symbol = Value               | Unit                   | Uncertainty |
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|+++++++++++++|
-|1  | IAU 2009/2012 System of Astronomical Constants                                                                            |
+|1  | IAU 2009/2012 System of Astronomical Constants#                                                                           |
 |   |---------------------------------------------------------------------------------------------------------------------------|
 |1.1|Natural Defining Constant:                 |                                        |                        |             |
 |   | Speed of light                            |               c  = 299792458           | m/s                    |             |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.2|Auxiliary Defining Constants:              |                                        |                        |             |
-|   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      |             |
+|   | Astronomical unit (unit distance)##       |            au =A = 149597870700        | m                      |             |
 |   | 1-d(TT)/d(TCG)                            |              L_G = 6.969290134D-10     |                        |             |
 |   | 1-d(TDB)/d(TCB)                           |              L_B = 1.550519768D-08     |                        |             |
 |   | TDB-TCB at T_0 = 2443144.5003725 (TCB)    |            TDB_0 = -6.55D-05           | s                      |             |
@@ -37,7 +37,7 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The 
 |   | Average value of 1-d(TCG)/d(TCB)          |              L_C = 1.48082686741D-08   |                        | +/- 2D-17   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.5|Body Constants:                            |                                        |                        |             |
-|   | Solar mass parameter#                     |              GMS = 1.32712442099D20    | m^3/s^2 (TCB)          | +/- 1D10    |
+|   | Solar mass parameter##                    |              GMS = 1.32712442099D20    | m^3/s^2 (TCB)          | +/- 1D10    |
 |   |                                           |                  = 1.32712440041D20    | m^3/s^2 (TDB)          | +/- 1D10    |
 |   | Equatorial radius for Earth               |        a_E = a_e = 6378136.6           | m       (TT)           | +/- 0.1     |
 |   | Dynamical form-factor for the Earth       |              J_2 = 0.0010826359        |                        | +/- 1D-10   |
@@ -50,22 +50,22 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The 
 |   | Mass Ratio: Moon to Earth                 |        M_M / M_E = 1.23000371D-02      |                        | +/- 4D-10   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |   | Ratio of the Mass of the Sun to the Mass of the Body*                              |                        |             |
-|   | Mass Ratio: Sun to Mercury                |  M_S / M_Me      = 6.0236D06           |                        | +/- 3D02    |
+|   | Mass Ratio: Sun to Mercury###             |  M_S / M_Me      = 6.0236D06           |                        | +/- 3D02    |
 |   | Mass Ratio: Sun to Venus                  |  M_S / M_Ve      = 4.08523719D05       |                        | +/- 8D-03   |
 |   | Mass Ratio: Sun to Mars                   |  M_S / M_Ma      = 3.09870359D06       |                        | +/- 2D-02   |
 |   | Mass Ratio: Sun to Jupiter                |  M_S / M_J       = 1.047348644D03      |                        | +/- 1.7D-05 |
 |   | Mass Ratio: Sun to Saturn                 |  M_S / M_Sa      = 3.4979018D03        |                        | +/- 1D-04   |
-|   | Mass Ratio: Sun to Uranus                 |  M_S / M_U       = 2.290298D04         |                        | +/- 3D-02   |
+|   | Mass Ratio: Sun to Uranus###              |  M_S / M_U       = 2.290298D04         |                        | +/- 3D-02   |
 |   | Mass Ratio: Sun to Neptune                |  M_S / M_N       = 1.941226D04         |                        | +/- 3D-02   |
-|   | Mass Ratio: Sun to (134340) Pluto         |  M_S / M_P       = 1.36566D08          |                        | +/- 2.8D04  |
+|   | Mass Ratio: Sun to (134340) Pluto###      |  M_S / M_P       = 1.36566D08          |                        | +/- 2.8D04  |
 |   | Mass Ratio: Sun to (136199) Eris          |  M_S / M_Eris    = 1.191D08            |                        | +/- 1.4D06  |
-|   |                                                                                                                           |
+|   |                                           |                                        |                        |             |
 |   | *All values of the masses from Mars to Eris are the sum of the masses of the celestial bodies and its satellites.         |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |   | Ratio of the Mass of the Body to the Mass of the Sun                               |                        |             |
 |   | Mass Ratio: (1) Ceres to Sun              |  M_Ceres  /M_S   = 4.72D-10            |                        | +/- 3D-12   |
 |   | Mass Ratio: (2) Pallas to Sun             |  M_Pallas /M_S   = 1.03D-10            |                        | +/- 3D-12   |
-|   | Mass Ratio: (4) Vesta to Sun              |  M_Vesta  /M_S   = 1.35D-10            |                        | +/- 3D-12   |
+|   | Mass Ratio: (4) Vesta to Sun###           |  M_Vesta  /M_S   = 1.35D-10            |                        | +/- 3D-12   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.6|Initial Values at J2000.0:                 |                                        |                        |             |
 |   | Mean obliquity of the ecliptic, epsilon_0 |  epsilon_J2000.0 = 23 26 21.406        | o ' "                  |             |
@@ -88,11 +88,11 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The 
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |3  |Other Constants                                                                                                            |
 |   |---------------------------------------------------------------------------------------------------------------------------|
-|   | Light-time for unit distance#             |      tau_A = A/c = 499.00478384        | s                      |             |
+|   | Light-time for unit distance##            |      tau_A = A/c = 499.00478384        | s                      |             |
 |   |                                           |          1/tau_A = 173.144632674       | au/d                   |             |
 |   |                                           |                                        |                        |             |
 |   | Mass Ratio: Earth to Moon                 |  M_E/M_M = 1/mu  =     81.300568       |                        | +/-  3D-06  |
-|   | Mass Ratio: Sun to Earth                  |         GMS/GME  = 332946.0487         |                        | +/-  0.0007 |
+|   | Mass Ratio: Sun to Earth                  |         GMS/GME  = 332946.0487         |                        | +/-  7D-04  |
 |   | Mass of the Sun                           |  M_S = S = GMS/G =      1.9884D30      | kg                     | +/-  2D26   |
 |   | Mass of the Earth                         |  M_E = E = GME/G =      5.9722D24      | kg                     | +/-  6D20   |
 |   | Mass Ratio: Sun to Earth + Moon           |  (S/E)/(1 + mu)  = 328900.5596         |                        | +/-  7D-04  |
@@ -120,28 +120,31 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The 
 |   |                           Oberon          |                  = 3.47D-05            |                        |             |
 |   |                 Neptune:  Triton          |                  = 2.089D-04           |                        |             |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| The IAU Working Group on Numerical Standards for Fundamental Astronomy maintains a website, http://maia.usno.navy.mil/NSFA,   |
+| which contains an agreed list of `Current Best Estimates' together with detailed information about the constants, and         |
+| relevant references. See footnotes below for more details.                                                                    |
 |                                                                                                                               |
-| Users are  advised  to check  the website  of  the  IAU  WG  on  Numerical  Standards  for  Fundamental  Astronomy  (NSFA) at |
-| http://maia.usno.navy.mil/NSFA  for  the  latest  list  of  'Current  Best  Estimates'.  The  NSFA website  also has detailed |
-| information about the constants, and all the relevant references.                                                             |
-|                                                                                                                               |
-| This almanac,  in certain circumstances,  may not use constants from this list.  The reasons and those constants used will be |
+| This almanac, in certain circumstances, may not use constants from this list.  The reasons and those constants used will be   |
 | given at the end of Section L Notes and References.                                                                           |
 |                                                                                                                               |
-| Units                                                                                                                         |
-| -----                                                                                                                         |
-| The units meter (m),  kilogram  (kg), and SI second (s) are the units of length, mass and time in the International System of |
+| The units meter (m), kilogram (kg), and SI second (s) are the units of length, mass and time in the International System of   |
 | Units (SI).                                                                                                                   |
 |                                                                                                                               |
-| The astronomical unit of time  is  a  time interval of one day (D) of 86400 seconds.  An interval of 36525 days is one Julian |
-| century.  Some  constants  that involve  time,   either directly  or indirectly  need to  be compatible  with the  underlying |
-| time-scales.  In order  to  specify  this (TDB) or (TCB) or (TT), as appropriate, is included after the unit to indicate that |
-| the value of the constant is compatible with the specified time-scale, for example, TDB-compatible.                           |
+| The astronomical unit of time is a time interval of one day (D) of 86400 seconds.  An interval of 36525 days is one Julian    |
+| century. Some constants that involve time, either directly or indirectly need to be compatible with the underlying            |
+| time-scales. In order to specify this (TDB) or (TCB) or (TT), as appropriate, is included after the unit to indicate that the |
+| value of the constant is compatible with the specified time-scale, for example, TDB-compatible.                               |
 |                                                                                                                               |
-| #The astronomical unit# of length (the  au) in  metres is re-defined (resolution B2, IAU XXVIII GA 2012) to be a conventional |
-| unit of length in agreement with the value adopted in the IAU 2009 Resolution B2;  it is to be used with all time scales such |
-| as TCB, TDB, TCG, TT, etc.  Also the  heliocentric gravitational constant GMS  is renamed the  solar mass parameter.  Further |
-| information is given at the end of Section L {\it Notes and References\/}.                                                    |
+| #The IAU 2009 System of Astronomical Constants classifies the constants into the groups shown. This may be redefined and      |
+| users should check the NSFA website for updates.                                                                              |
+|                                                                                                                               |
+| ##The astronomical unit of length (au) in metres is re-defined as a conventional unit of length (resolution B2, IAU XXVIII GA |
+| 2012) in agreement with the value adopted by IAU 2009 Resolution B2; it is to be used with all time scales such as TCB, TDB,  |
+| TCG, TT, etc.  Also the heliocentric gravitational constant GMS is renamed the solar mass parameter. Further details are      |
+| given in Section L Notes and References.                                                                                      |
+|                                                                                                                               |
+| ###These values are those of the IAU 2009 System of Astronomical Constants. In May 2015 new best estimates were agreed (see   |
+| the NSFA website at http://maia.usno.navy.mil/NSFA/NSFA_cbe.html).                                                            |                                                                  |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2014 June 12                                                                                                                 |
+|  2015 August 24                                                                                                               |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
