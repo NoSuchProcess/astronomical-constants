@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2015
+Selected Astronomical Constants, 2016
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2015.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -143,5 +143,5 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2015.  The 
 | as TCB, TDB, TCG, TT, etc.  Also the  heliocentric gravitational constant GMS  is renamed the  solar mass parameter.  Further |
 | information is given at the end of Section L {\it Notes and References\/}.                                                    |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2013 September 30                                                                                                            |
+|  2014 June 12                                                                                                                 |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
