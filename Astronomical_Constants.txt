@@ -1,11 +1,12 @@
-Selected Astronomical Constants, 2009
+Selected Astronomical Constants, 2010
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2009.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2010.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
-    (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
-    (d) numerical exponents are given with the Fortran D format.
+    (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively,
+    (d) the . after the symbolic name implies that the quantity is a rate, and
+    (e) numerical exponents are given with the Fortran D format.
 
 The units meter (m), kilogram (kg), and SI second (s) are the units of length, mass and time in the International System of Units (SI).
 
@@ -22,69 +23,75 @@ For these quantities both TDB and SI compatible values are given, which are indi
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |    | Defining constants                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  1 | Gaussian gravitational constant                   |            k = 0.01720209895       |              |              |  I*      |
+|  1 | Speed of light                                    |            c = 299792458           | m/s          |              |  C E J A |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  2 | Speed of light                                    |            c = 299792458           | m/s          |              |  C E J A |
+|  2 | Gaussian gravitational constant                   |            k = 0.01720209895       |              |              |  I* A    |
 |--------------------------------------------------------------------------------------------------------------------------------------|
 |  3 | L_G                                               |          L_G = 6.969290134D-10     |              |              |  I E     |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  4 | L_B                                               |          L_B = 1.55051976772D-08   |              |  [2D-17]     |  I06 E   |
+|  4 | L_B                                               |          L_B = 1.550519768D-08     |              |              |  I06     |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+|  5 | Rate of advance of Earth rotation angle (ERA)     |      theta.  = 1.00273781191135448 | revolutions  |              |  I A     |
+|    |                                                   |                                    | per UT1 day  |              |          |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |    | Other constants and quantities:                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  5 | L_C                                               |          L_C = 1.48082686741D-08   |              |  [2D-17]     |  I E     |
+|  6 | L_C                                               |          L_C = 1.48082686741D-08   |              |  [2D-17]     |  I E     |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  6 | Light-time for unit distance                      |        tau_A =  499.0047838061     | s    (TDB)   |  [2D-08s]    |  J E A   |
+|  7 | Light-time for unit distance                      |        tau_A =  499.0047838061     | s    (TDB)   |  [2D-08s]    |  J E A   |
 |    |                                                   |        tau_A =  499.0047863852     | s    (SI)    |              |          |
-|    |                                                   |      1/tau_A = 173.1446326847      | AU/d (TDB)   |              |          |
+|    |                                                   |      1/tau_A = 173.1446326847      | au/d (TDB)   |              |          |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  7 | Unit distance, astronomical unit (c*tau_A)        |            A = 1.49597870691D11    | m    (TDB)   |  [6]         |  J E     |
+|  8 | Unit distance, astronomical unit (c*tau_A)        |            A = 1.49597870691D11    | m    (TDB)   |  [6]         |  J E     |
 |    |                                                   |            A = 1.49597871464D11    | m    (SI)    |              |          |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  8 | Equatorial radius for Earth                       |          a_e = 6378136.6           | m            |  [0.10]      |  G E A   |
+|  9 | Equatorial radius for Earth                       |          a_e = 6378136.6           | m            |  [0.10]      |  G E A   |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  9 | Flattening factor for Earth                       |            f = 0.0033528197        |              |              |  G E A   |
+| 10 | Flattening factor for Earth                       |            f = 0.0033528197        |              |              |  G E A   |
 |    |                                                                f = 1/298.25642         |              |  [1/0.00001] |          |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 10 | Dynamical form-factor for the Earth               |          J_2 = 0.0010826359        |              |  [1D-10]     |  G E     |
+| 11 | Dynamical form-factor for the Earth               |          J_2 = 0.0010826359        |              |  [1D-10]     |  G E     |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 11 | Nominal mean angular velocity of Earth rotation   |        omega = 7.292115D-05        | rad/s        |  [variable]  |  I E G   |
+| 12 | Nominal mean angular velocity of Earth rotation   |        omega = 7.292115D-05        | rad/s        |              |  I E G   |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 12 | Potential of the geoid                            |          W_0 = 6.26368560D07       | m^2/s^2      |  [0.5]       |  G E     |
+| 13 | Potential of the geoid                            |          W_0 = 6.26368560D07       | m^2/s^2      |  [0.5]       |  G E     |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 13 | Geocentric gravitational constant                 |           GE = 3.986004329D14      | m^3/s^2 (TDB)|  [8D05]      |  J A     |
+| 14 | Geocentric gravitational constant                 |           GE = 3.986004329D14      | m^3/s^2 (TDB)|  [8D05]      |  J A     |
 |    |                                                   |           GE = 3.986004391D14      | m^3/s^2 (SI) |              |          |
-|    |                                                   |           GE = 3.986004418D14      | m^3/s^2      |              |  G E     |
+|    |                                                   |           GE = 3.986004418D14      | m^3/s^2 (SI) |              |  G E     |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 14 | Heliocentric gravitational constant (A^3*k^2/D^2) |           GS = 1.32712440017987D20 | m^3/s^2 (TDB)|  [5D10]      |  J A     |
+| 15 | Heliocentric gravitational constant (A^3*k^2/D^2) |           GS = 1.32712440017987D20 | m^3/s^2 (TDB)|  [5D10]      |  J A     |
 |    |                                                   |           GS = 1.32712442076D20    | m^3/s^2 (SI) |              |  E       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 15 | Constant of gravitation                           |            G = 6.67428D-11         | m^3/kg/s^2   |  [0.067D-13] |  C       |
+| 16 | Constant of gravitation                           |            G = 6.67428D-11         | m^3/kg/s^2   |  [0.067D-13] |  C       |
 |    |                                                   |            G = 6.673D-11           | m^3/kg/s^2   |  [1.0D-13]   |  E       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 16 | General precession in longitude at J2000          |         p_A = 5028.796195          | " /Julian cy |              |  I06 A P |
-|    |                                                   |         p_A = 5028.79695           | " /Julian cy |              |  P I E   |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| 17 | Mean obliquity of the ecliptic at J2000           |    epsilon_0 = 84381.406           | "            |  [0.0001]    |  I06 A   |
-|    |                                                   |    epsilon_0 = 84381.4059          | "            |              |  E       |
-|    |                                                   |    epsilon_0 = 84381.448           | "            |  [0.0003]    |  I* I    |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| 18 | Ratio: mass of Moon to that of the Earth          |           mu = 1/81.30056          |              |  [5D-10]     |  E J     |
+| 17 | Ratio: mass of Moon to that of the Earth          |           mu = 1/81.30056          |              |  [5D-10]     |  E J     |
 |    |                                                   |           mu = 0.0123000383        |              |              |          |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 19 | Ratio: mass of Sun to that of the Earth (S/E)     |        GS/GE = 332946.050895       |              |              |  J       |
+| 18 | Ratio: mass of Sun to that of the Earth (S/E)     |        GS/GE = 332946.050895       |              |              |  J       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 20 | Ratio: mass of Sun to that of the Earth + Moon    | (S/E)/(1+mu) = 328900.561400       |              |              |  J       |
+| 19 | Ratio: mass of Sun to that of the Earth + Moon    | (S/E)/(1+mu) = 328900.561400       |              |              |  J       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 21 | Mass of the Sun (GS/G)                            |            S = 1.9884D30           | kg           |              |          |
+| 20 | Mass of the Sun (GS/G)                            |            S = 1.9884D30           | kg           |              |  J       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 22 | Constant of nutation at epoch J2000.0             |            N = 9.2052331           | "            |              |  I       |
+| 21 | Mass of the Earth (GE/G)                          |            E = 5.9721986D24        | kg           |              |  J       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 23 | Solar parallax (sin^{-1}(a_e/A))                  |      pi_odot = 8.794143            | "            |              |          |
+| 22 | Mean obliquity of the ecliptic at J2000           |    epsilon_0 = 84381.406           | "            |              |  I06 A   |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 24 | Constant of aberration at epoch J2000.0           |        kappa = 20.49551            | "            |              |          |
+| 23 | Rates of precession (TDB) at J2000                |                                    |              |              |  I06 A   |
+|    |  General precession in longitude                  |         p_A  = 5028.796195         | " /Julian cy |              |          |
+|    |  Rate of change in obliquity                      |     epsilon. = -46.836769          | " /Julian cy |              |          |
+|    |  Precession of the equator in longitude           |         psi. = 5038.481507         | " /Julian cy |              |          |
+|    |  Precession of the equator in obliquity           |       omega. = -0.025754           | " /Julian cy |              |          |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| 24 | Constant of nutation at epoch J2000.0             |            N = 9.2052331           | "            |              |  I       |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| 25 | Solar parallax (sin^{-1}(a_e/A))                  |      pi_odot = 8.794143            | "            |              |  A       |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| 26 | Constant of aberration at epoch J2000.0           |        kappa = 20.49551            | "            |              |          |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-| 25 | Ratios of mass of Sun to masses of the planets:  JPL DE405 Ephemeris (J)                              |                         |
+| 27 | Ratios of mass of Sun to masses of the planets:  JPL DE405 Ephemeris (J)                              |                         |
 |    |-------------------------------------------------------------------------------------------------------|                         |
 |    | Mercury      |     6023600                                                                            |                         |
 |    | Venus        |      408523.71                                                                         |                         |
@@ -96,7 +103,7 @@ For these quantities both TDB and SI compatible values are given, which are indi
 |    | Neptune      |       19412.24                                                                         |                         |
 |    | Pluto        |   135200000                                                                            |                         |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|                         |
-| 26 | Minor planet masses:  mass in solar mass                                                              |                         |
+| 28 | Minor planet masses:  mass in solar mass                                                              |                         |
 |    |-------------------------------------------------------------------------------------------------------|                         |
 |    |   | Hilton (H)           | Uncertainty  |   JPL DE405 (J)                                             |                         |
 |    |-------------------------------------------------------------------------------------------------------|                         |
@@ -104,24 +111,24 @@ For these quantities both TDB and SI compatible values are given, which are indi
 |    | 2 | Pallas   | 1.59D-10  |  [+/-0.05]   |    1.0D-10                                                  |                         |
 |    | 4 | Vesta    | 1.69D-10  |  [+/-0.11]   |    1.3D-10                                                  |                         |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|                         |
-| 27 | Masses of the larger natural satellites:  mass satellite/mass of the planet (see pages F3, F5)        |                         |
+| 29 | Masses of the larger natural satellites:  mass satellite/mass of the planet (see pages F3, F5)        |                         |
 |    |-------------------------------------------------------------------------------------------------------|                         |
 |    | Planet       | Satellite | Mass Ratio                                                                 |                         |
 |    |--------------|-----------|----------------------------------------------------------------------------|                         |
 |    | Jupiter      |           |                                                                            |                         |
-|    |              | Io        | 4.70D-05                                                                   |                         |
-|    |              | Europa    | 2.53D-05                                                                   |                         |
-|    |              | Ganymede  | 7.80D-05                                                                   |                         |
-|    |              | Callisto  | 5.67D-05                                                                   |                         |
+|    |              | Io        | 4.704D-05                                                                  |                         |
+|    |              | Europa    | 2.528D-05                                                                  |                         |
+|    |              | Ganymede  | 7.805D-05                                                                  |                         |
+|    |              | Callisto  | 5.667D-05                                                                  |                         |
 |    | Saturn       |           |                                                                            |                         |
-|    |              | Titan     | 2.37D-04                                                                   |                         |
+|    |              | Titan     | 2.366D-04                                                                  |                         |
 |    | Uranus       |           |                                                                            |                         |
 |    |              | Titania   | 4.06D-05                                                                   |                         |
 |    |              | Oberon    | 3.47D-05                                                                   |                         |
 |    | Neptune      |           |                                                                            |                         |
-|    |              | Triton    | 2.09D-04                                                                   |                         |
+|    |              | Triton    | 2.089D-04                                                                  |                         |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|                         |
-| 28 | Equatorial radii in km:  Cartographic Coordinates 2007 (CC) and JPL DE405 Ephemeris (J)               |                         |
+| 30 | Equatorial radii in km:  Cartographic Coordinates 2007 (CC) and JPL DE405 Ephemeris (J)               |                         |
 |    |-------------------------------------------------------------------------------------------------------|                         |
 |    | Body         |  CC A     | Uncertainty  |   JPL (J)  | Unit/Comment                                   |                         |
 |    |--------------|-----------|--------------|------------|------------------------------------------------|                         |
@@ -139,21 +146,22 @@ For these quantities both TDB and SI compatible values are given, which are indi
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |Ref.| The references indicate where the constant has been used, quoted or derived from:                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  A | Constants used in The Astronomical Almanac 2009.                                                                                |
+|  A | Constants used in The Astronomical Almanac 2010.                                                                                |
 |  C | CODATA 2006, http://physics.nist.gov/constants page 1.                                                                          |
 | CC | Report 10 of the IAU/IAG Working Group on Cartographic Coordinates and Rotational Elements: 2007, Seidelmann, P.K. et al.,      |
-|    |  Cel. Mech., & Dyn Astro., 98, 155-180, 2007, http://astrogeology.usgs.gov./Projects/WGCCRE.                                    |
+|    |  Celest. Mech., 98, 155-180, 2007, http://astrogeology.usgs.gov./Projects/WGCCRE.                                               |
 |  E | IERS Conventions 2003, Technical Note 32, McCarthy, D.D. & Petit, G., Chapter 1.                                                |
 |  G | IAG XXII GA, 1999, Special Commission SC3, Fundamental Constants, Groten, E., Geodesists Handbook 2000,                         |
-|    |  `Parameters of Common Relevance of Astronomy, Geodesy, and Geodynamics', J. Geod., 74, 134-140.                                |
-|  H | Hilton, J. Astrophysical Journal, 117, 1077-1086, 1999.                                                                         |
+|    |  "Parameters of Common Relevance of Astronomy, Geodesy, and Geodynamics", J. Geod., 74, 134-140.                                |
+|  H | Hilton, J. Astronomical Journal, 117, 1077-1086, 1999.                                                                          |
 | I06| IAU XXVI General Assembly (2006) resolutions, including the Report of the IAU Division I Working Group on                       |
-|    |  Precession and the Ecliptic, Cel. Mech. & Dyn. Astr., 94, 351-367, 2006.                                                       |
+|    |  Precession and the Ecliptic, Celest. Mech. & Dyn. Astr., 94, 351-367, 2006.                                                    |
 |  I | IAU XXIV General Assembly (2000) resolutions B1.5, B1.6, B1.9, & IAU2000A precession-nutation.                                  |
 |  I*| IAU 1976 System of Astronomical Constants.                                                                                      |
 |  J | JPL IOM 312.F-98-048, Standish, E.M., 1998 (DE405/LE405 Ephemeris).                                                             |
-|  P | Capitaine, N., Wallace, P.T., & Chapront, J., Astronomy & Astrophysics,  412, 567-586, 2003.                                    |
+|    |                                                                                                                                 |
+| A list of "Current Best Estimates" is being developed by the IAU WG NSFA at http://maia.usno.navy.mil/NSFA.html                      |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  Updated 2007 October 18                                                                                                             |
+|  Updated 2009 February 12                                                                                                            |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
