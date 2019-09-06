@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2007
+Selected Astronomical Constants, 2008
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2007.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2008.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -65,7 +65,7 @@ For these quantities both TDB and SI values are given.
 | 16 | General precession in longitude at J2000          |         p_A = 5028.79695           | " /Julian cy |              |  P       |
 |    |                                                   |         p_A = 5028.796195          | " /Julian cy |              |  P (P03) |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-| 17 | Obliquity of the ecliptic at J2000                |    epsilon_0 = 84381.448           | "            |  [0.0003]    |  I* I A  |
+| 17 | Mean obliquity of the ecliptic at J2000           |    epsilon_0 = 84381.448           | "            |  [0.0003]    |  I* I A  |
 |    |                                                   |    epsilon_0 = 84381.4059          | "            |              |  E       |
 |    |                                                   |    epsilon_0 = 84381.406           | "            |              |  P       |
 |--------------------------------------------------------------------------------------------------------------------------------------|
@@ -139,10 +139,10 @@ For these quantities both TDB and SI values are given.
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |Ref.| The references indicate where the constant has been used, quoted or derived from:                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|  A | Constants used in The Astronomical Almanac 2007.                                                                                |
+|  A | Constants used in The Astronomical Almanac 2008.                                                                                |
 |  C | CODATA 2002, http://physics.nist.gov/constants, page 1.                                                                         |
-| CC | Report of the IAU/IAG Working Group on Cartographic Coordinates and Rotational Elements of the Planets and Satellites:          |
-|    | 2000 Seidelmann et al., Celest. Mech., 82, 83-111, 2002, & 2003 report in press 2005.                                           |
+| CC | Report of the IAU/IAG Working Group on Cartographic Coordinates and Rotational Elements: 2003, Seidelmann et al.,               |
+|    |  Celest. Mech., 91, 203-215, 2005, http://astrogeology.usgs.gov./Projects/WGCCRE.                                               |
 |  E | IERS Conventions 2003, Technical Note 32, Chapter 1.                                                                            |
 |  G | IAG XXII GA, Special Commission SC3, Fundamental Constants, Groten, E., 1999.                                                   |
 |  H | Hilton, Astrophysical Journal, 117, 1077-1086, 1999.                                                                            |
@@ -152,5 +152,5 @@ For these quantities both TDB and SI values are given.
 |  P | Capitaine et al., Astronomy & Astrophysics,  412, 567-586, 2003.                                                                |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  Updated 2006 March 14                                                                                                               |
+|  Updated 2006 June 9                                                                                                                 |
 |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
