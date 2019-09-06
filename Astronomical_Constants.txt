@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2011
+Selected Astronomical Constants, 2012
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2011.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2012.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -37,7 +37,8 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2011.  The 
 |   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      | +/- 3       |
 |   | Average value of 1-d(TCG)/d(TCB)          |              L_C = 1.48082686741D-08   |                        | +/- 2D-17   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
-|2.3|Body Constants:                            |                                        |                        |             |
+|2.3|Body Constants*:                           |  *All values of the masses from Mars to Eris are the sum of the |             |
+|   |                                           |   masses of the celestial bodies and its satellites.            |             |
 |   | Mass Ratio: Moon to Earth                 |  M_M / M_ E      = 1.23000371D-02      |                        | +/- 4D-10   |
 |   | Mass Ratio: Sun to Mercury                |  M_S / M_ Me     = 6.0236D06           |                        | +/- 3D02    |
 |   | Mass Ratio: Sun to Venus                  |  M_S / M_ Ve     = 4.08523719D05       |                        | +/- 8D-03   |
@@ -72,12 +73,12 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2011.  The 
 |   | Mean obliquity of the ecliptic, epsilon_0 |  epsilon_J2000.0 = 23 26 21.406        | o ' "                  |             |
 |   |                                           |                  = 84381.406           | "                      | +/- 0.001   |
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|3  |Constants from IAU WG on Cartographic Coordinates and Rotational Elements (2007)                                            |
+|3  |Constants from IAU WG on Cartographic Coordinates and Rotational Elements (2009)                                           |
 |   |---------------------------------------------------------------------------------------------------------------------------|
 |   | Equatorial radii:                         |                                        |                        |             |
 |   |                 Mercury                   |                  =   2439.7            | km                     | +/-  1.0    |
 |   |                 Venus                     |                  =   6051.8            | km                     | +/-  1.0    |
-|   |                 Earth                     |                  =   6378.14           | km                     | +/-  0.01   |
+|   |                 Earth                     |                  =   6378.1366         | km                     | +/-  0.0001 |
 |   |                 Mars                      |                  =   3396.19           | km                     | +/-  0.1    |
 |   |                 Jupiter                   |                  =  71492              | km                     | +/-  4      |
 |   |                 Saturn                    |                  =  60268              | km                     | +/-  4      |
@@ -144,8 +145,8 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2011.  The 
 |                                                                                                                               |
 | #The astronomical unit# of length  (the  au) in  metres  is that length A = cube root of (GMS*D^2/k^2), where k, the Gaussian |
 | gravitational constant and GMS, the heliocentric gravitational constant (TDB-compatible value), are tabulated on the previous |
-| page.  Note: that at present (2009  September) the au is considered to be TDB-compatible and no TCB-compatible value has been |
+| page.  Note: that at present (2010  September) the au is considered to be TDB-compatible and no TCB-compatible value has been |
 | agreed.                                                                                                                       |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2010 February 2                                                                                                              |
+|  2010 September 7                                                                                                             |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
