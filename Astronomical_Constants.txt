@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2014
+Selected Astronomical Constants, 2015
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2014.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2015.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -26,7 +26,7 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2014.  The 
 |   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      |             |
 |   | 1-d(TT)/d(TCG)                            |              L_G = 6.969290134D-10     |                        |             |
 |   | 1-d(TDB)/d(TCB)                           |              L_B = 1.550519768D-08     |                        |             |
-|   | TDB-TCB at T_0 = 2443144.5003725          |            TDB_0 = -6.55D-05           | s                      |             |
+|   | TDB-TCB at T_0 = 2443144.5003725 (TCB)    |            TDB_0 = -6.55D-05           | s                      |             |
 |   | Earth rotation angle (ERA) at J2000.0 UT1 |          theta_0 = 0.7790572732640     | revolutions            |             |
 |   | Rate of advance of ERA                    |    d(theta)/dUT1 = 1.00273781191135448 | revs/UT1-day           |             |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
@@ -125,8 +125,8 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2014.  The 
 | http://maia.usno.navy.mil/NSFA  for  the  latest  list  of  'Current  Best  Estimates'.  The  NSFA website  also has detailed |
 | information about the constants, and all the relevant references.                                                             |
 |                                                                                                                               |
-| This almanac, in certain circumstances, may not use constants from this list.  The reasons and those constants used are given |
-| at the end of Section L Notes and References.                                                                                 |
+| This almanac,  in certain circumstances,  may not use constants from this list.  The reasons and those constants used will be |
+| given at the end of Section L Notes and References.                                                                           |
 |                                                                                                                               |
 | Units                                                                                                                         |
 | -----                                                                                                                         |
@@ -143,5 +143,5 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2014.  The 
 | as TCB, TDB, TCG, TT, etc.  Also the  heliocentric gravitational constant GMS  is renamed the  solar mass parameter.  Further |
 | information is given at the end of Section L {\it Notes and References\/}.                                                    |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2012 December 31                                                                                                             |
+|  2013 September 30                                                                                                            |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
