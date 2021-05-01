@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2020
+Selected Astronomical Constants, 2021
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2020.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2021.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -45,7 +45,7 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2020.  The 
 |   | Geocentric gravitational constant         |              GME = 3.986004418D14      | m^3/s^2 (TCB)          | +/- 8D05    |
 |   |                                           |                  = 3.986004415D14      | m^3/s^2 (TT)           | +/- 8D05    |
 |   |                                           |                  = 3.986004356D14      | m^3/s^2 (TDB)          | +/- 8D05    |
-|   | Potential of the geoid###                 |              W_0 = 6.26368560D07       | m^2/s^2                | +/- 0.5     |
+|   | Potential of the geoid###                 |              W_0 = 6.26368534D07       | m^2/s^2                | +/- 0.5     |
 |   | Nominal mean angular vel.of Earth rotation|            omega = 7.292115D-05        | rad/s   (TT)           |             |
 |   | Mass Ratio: Moon to Earth                 |        M_M / M_E = 1.23000371D-02      |                        | +/- 4D-10   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
