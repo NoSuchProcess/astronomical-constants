@@ -1,18 +1,18 @@
-Selected Astronomical Constants, 2019
+Selected Astronomical Constants, 2020
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2020.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
     (d) numerical exponents are given with the Fortran D format.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-| The IAU 2009 System of Astronomical Constants (1) as published in the Report of the IAU Working Ground on Numerical Standards |
-| for Fundamental Astronomy (NSFA, 2011), and updated by resolution B2 of the IAU XXVIII General Assembly (2012), (2) planetary |
-| equatorial radii,  taken from the report of the IAU WG on Cartographic Coordinates and Rotational Elements: 2009 (2011),  and |
-| lastly (3) other useful constants.  For each quantity the list tabulates its description, symbol and value, and to the right, |
-| as appropriate, its uncertainty in units that the quantity is given in. Further information is given at the end of this file. |
+| The IAU 2009 System of Astronomical Constants (1) published in the IAU WG report on Numerical Standards for                   |
+| Fundamental Astronomy (NSFA, 2011) and updated by resolution B2 of the IAU XXVIII General Assembly (2012), (2) planetary      |
+| equatorial radii, from the IAU WG report on Cartographic Coordinates and Rotational Elements: 2015 (2017), and (3)            |
+| other useful constants. Tabulated for each quantity is its description, symbol and value, and, as appropriate, its            |
+| uncertainty in units in which the quantity is given. Further information is given at the end of this file.                    |
 |                                                                                                                               |
 |---|---------------------------------------------------------------------------------------------------------------------------|
 |   | Description of Quantity                   |           Symbol = Value               | Unit                   | Uncertainty |
@@ -45,19 +45,19 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 |   | Geocentric gravitational constant         |              GME = 3.986004418D14      | m^3/s^2 (TCB)          | +/- 8D05    |
 |   |                                           |                  = 3.986004415D14      | m^3/s^2 (TT)           | +/- 8D05    |
 |   |                                           |                  = 3.986004356D14      | m^3/s^2 (TDB)          | +/- 8D05    |
-|   | Potential of the geoid                    |              W_0 = 6.26368560D07       | m^2/s^2                | +/- 0.5     |
+|   | Potential of the geoid###                 |              W_0 = 6.26368560D07       | m^2/s^2                | +/- 0.5     |
 |   | Nominal mean angular vel.of Earth rotation|            omega = 7.292115D-05        | rad/s   (TT)           |             |
 |   | Mass Ratio: Moon to Earth                 |        M_M / M_E = 1.23000371D-02      |                        | +/- 4D-10   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |   | Ratio of the Mass of the Sun to the Mass of the Body*                              |                        |             |
-|   | Mass Ratio: Sun to Mercury###             |  M_S / M_Me      = 6.0236D06           |                        | +/- 3D02    |
+|   | Mass Ratio: Sun to Mercury####            |  M_S / M_Me      = 6.0236D06           |                        | +/- 3D02    |
 |   | Mass Ratio: Sun to Venus                  |  M_S / M_Ve      = 4.08523719D05       |                        | +/- 8D-03   |
 |   | Mass Ratio: Sun to Mars                   |  M_S / M_Ma      = 3.09870359D06       |                        | +/- 2D-02   |
 |   | Mass Ratio: Sun to Jupiter                |  M_S / M_J       = 1.047348644D03      |                        | +/- 1.7D-05 |
 |   | Mass Ratio: Sun to Saturn                 |  M_S / M_Sa      = 3.4979018D03        |                        | +/- 1D-04   |
-|   | Mass Ratio: Sun to Uranus###              |  M_S / M_U       = 2.290298D04         |                        | +/- 3D-02   |
+|   | Mass Ratio: Sun to Uranus####             |  M_S / M_U       = 2.290298D04         |                        | +/- 3D-02   |
 |   | Mass Ratio: Sun to Neptune                |  M_S / M_N       = 1.941226D04         |                        | +/- 3D-02   |
-|   | Mass Ratio: Sun to (134340) Pluto###      |  M_S / M_P       = 1.36566D08          |                        | +/- 2.8D04  |
+|   | Mass Ratio: Sun to (134340) Pluto####     |  M_S / M_P       = 1.36566D08          |                        | +/- 2.8D04  |
 |   | Mass Ratio: Sun to (136199) Eris          |  M_S / M_Eris    = 1.191D08            |                        | +/- 1.4D06  |
 |   |                                           |                                        |                        |             |
 |   | *All values of the masses from Mars to Eris are the sum of the masses of the celestial bodies and its satellites.         |
@@ -65,16 +65,16 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 |   | Ratio of the Mass of the Body to the Mass of the Sun                               |                        |             |
 |   | Mass Ratio: (1) Ceres to Sun              |  M_Ceres  /M_S   = 4.72D-10            |                        | +/- 3D-12   |
 |   | Mass Ratio: (2) Pallas to Sun             |  M_Pallas /M_S   = 1.03D-10            |                        | +/- 3D-12   |
-|   | Mass Ratio: (4) Vesta to Sun###           |  M_Vesta  /M_S   = 1.35D-10            |                        | +/- 3D-12   |
+|   | Mass Ratio: (4) Vesta to Sun####          |  M_Vesta  /M_S   = 1.35D-10            |                        | +/- 3D-12   |
 |   |-------------------------------------------|----------------------------------------|------------------------|-------------|
 |1.6|Initial Values at J2000.0:                 |                                        |                        |             |
 |   | Mean obliquity of the ecliptic, epsilon_0 |  epsilon_J2000.0 = 23 26 21.406        | o ' "                  |             |
 |   |                                           |                  = 84381.406           | "                      | +/- 0.001   |
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|2  |Constants from IAU WG on Cartographic Coordinates and Rotational Elements: 2009                                            |
+|2  |Constants from IAU WG on Cartographic Coordinates and Rotational Elements: 2015                                            |
 |   |---------------------------------------------------------------------------------------------------------------------------|
 |   | Equatorial radii:                         |                                        |                        |             |
-|   |                 Mercury                   |                  =   2439.7            | km                     | +/-  1.0    |
+|   |                 Mercury                   |                  =   2440.53           | km                     | +/-  0.04   |
 |   |                 Venus                     |                  =   6051.8            | km                     | +/-  1.0    |
 |   |                 Earth                     |                  =   6378.1366         | km                     | +/-  0.0001 |
 |   |                 Mars                      |                  =   3396.19           | km                     | +/-  0.1    |
@@ -82,13 +82,13 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 |   |                 Saturn                    |                  =  60268              | km                     | +/-  4      |
 |   |                 Uranus                    |                  =  25559              | km                     | +/-  4      |
 |   |                 Neptune                   |                  =  24764              | km                     | +/- 15      |
-|   |                 (134340) Pluto            |                  =   1195              | km                     | +/-  5      |
+|   |                 (134340) Pluto            |                  =   1188.3            | km                     | +/-  1.6    |
 |   |                 Moon (mean)               |                  =   1737.4            | km                     | +/-  1      |
-|   |                 Sun                       |                  = 696000              | km                     |             |
+|   |                 Sun#####                  |                  = 696000              | km                     |             |
 |+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
 |3  |Other Constants                                                                                                            |
 |   |---------------------------------------------------------------------------------------------------------------------------|
-|   | Light-time for unit distance##            |      tau_A = A/c = 499.00478384        | s                      |             |
+|   | Light-time for unit distance##            |      tau_A = au/c = 499.00478384       | s                      |             |
 |   |                                           |          1/tau_A = 173.144632674       | au/d                   |             |
 |   |                                           |                                        |                        |             |
 |   | Mass Ratio: Earth to Moon                 |  M_E/M_M = 1/mu  =     81.300568       |                        | +/-  3D-06  |
@@ -106,21 +106,23 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 |   |  Precession of the equator in obliquity   |      d(omega)/dT =   -0.025754         | "/Julian century (TDB) |             |
 |   |                                           |                                        |                        |             |
 |   | Constant of nutation at epoch J2000.0     |                N =  9.2052331          | "                      |             |
-|   | Solar parallax, pi_odot                   |    sin^-1(a_e/A) =  8.794143           | "                      |             |
+|   | Solar parallax, pi_odot                   |   sin^-1(a_e/au) =  8.794143           | "                      |             |
 |   | Constant of aberration at epoch J2000.0   |            kappa = 20.49551            | "                      |             |
 |   |                                           |                                        |                        |             |
 |   | Masses of the larger natural satellites:  |                                        |                        |             |
 |   |  Mass satellite/mass of the planet        |                                        |                        |             |
-|   |                 Jupiter:  Io              |                  = 4.704D-05           |                        |             |
+|   |                 Jupiter:  Io              |                  = 4.705D-05           |                        |             |
 |   |                           Europa          |                  = 2.528D-05           |                        |             |
 |   |                           Ganymede        |                  = 7.805D-05           |                        |             |
 |   |                           Callisto        |                  = 5.667D-05           |                        |             |
-|   |                 Saturn:   Titan           |                  = 2.366D-04           |                        |             |
-|   |                 Uranus:   Titania         |                  = 4.06D-05            |                        |             |
-|   |                           Oberon          |                  = 3.47D-05            |                        |             |
+|   |                 Saturn:   Titan           |                  = 2.367D-04           |                        |             |
+|   |                 Uranus:   Ariel           |                  = 1.49D-05            |                        |             |
+|   |                           Umbriel         |                  = 1.41D-05            |                        |             |
+|   |                           Titania         |                  = 3.94D-05            |                        |             |
+|   |                           Oberon          |                  = 3.32D-05            |                        |             |
 |   |                 Neptune:  Triton          |                  = 2.089D-04           |                        |             |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-| The IAU Working Group on Numerical Standards for Fundamental Astronomy maintains a website, http://maia.usno.navy.mil/NSFA,   |
+| The IAU Working Group on Numerical Standards for Fundamental Astronomy maintains a website, see http://asa.hmnao.com,         |
 | which contains an agreed list of `Current Best Estimates' together with detailed information about the constants, and         |
 | relevant references. See footnotes below for more details.                                                                    |
 |                                                                                                                               |
@@ -130,10 +132,10 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 | The units meter (m), kilogram (kg), and SI second (s) are the units of length, mass and time in the International System of   |
 | Units (SI).                                                                                                                   |
 |                                                                                                                               |
-| The astronomical unit of time is a time interval of one day (D) of 86400 seconds.  An interval of 36525 days is one Julian    |
-| century. Some constants that involve time, either directly or indirectly need to be compatible with the underlying            |
-| time-scales. In order to specify this (TDB) or (TCB) or (TT), as appropriate, is included after the unit to indicate that the |
-| value of the constant is compatible with the specified time-scale, for example, TDB-compatible.                               |
+| The astronomical unit of time is a time interval of one day (D) of 86400 seconds. An interval of 36525 days is one Julian     |
+| century. Some constants that involve time, either directly or indirectly need to be compatible with the underlying time       |
+| scales, for example TDB-compatible. To specify the time scale that the value of the constant is compatible with, (TDB), (TCB) |
+| or (TT) is included after the unit.                                                                                           |
 |                                                                                                                               |
 | #The IAU 2009 System of Astronomical Constants classifies the constants into the groups shown. This may be redefined and      |
 | users should check the NSFA website for updates.                                                                              |
@@ -143,8 +145,14 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The 
 | TCG, TT, etc.  Also the heliocentric gravitational constant GMS is renamed the solar mass parameter. Further details are      |
 | given in Section L Notes and References.                                                                                      |
 |                                                                                                                               |
-| ###These values are those of the IAU 2009 System of Astronomical Constants. In May 2015 new best estimates were agreed (see   |
-| the NSFA website at http://maia.usno.navy.mil/NSFA/NSFA_cbe.html).                                                            |
+| ###The International Association of Geodesy 2015 Resolution No. 1 adopted an updated value.                                   |
+|                                                                                                                               |
+| ####In May 2015 new best estimates were agreed (see http://asa.hmnao.com). Values printed here are those of the IAU 2009      |
+| System of Astronomical Constants.                                                                                             |
+|                                                                                                                               |
+| #####The value printed here is that from the report of the IAU WG on Cartographic Coordinates and Rotational Elements: 2009   |
+| (2011) and is the value used throughout this almanac. Further details are given in Section L Notes and References.            |
+|                                                                                                                               |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2017 August 17                                                                                                               |
+|  2018 March 8                                                                                                                 |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
