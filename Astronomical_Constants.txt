@@ -1,7 +1,7 @@
-Selected Astronomical Constants, 2018
+Selected Astronomical Constants, 2019
 -------------------------------------
 
-This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2018.  The following nomenclature is used in this file:
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2019.  The following nomenclature is used in this file:
     (a) greek letters, as in TeX, are spelt out, e.g., alpha,
     (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively,
     (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
@@ -144,7 +144,7 @@ This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2018.  The 
 | given in Section L Notes and References.                                                                                      |
 |                                                                                                                               |
 | ###These values are those of the IAU 2009 System of Astronomical Constants. In May 2015 new best estimates were agreed (see   |
-| the NSFA website at http://maia.usno.navy.mil/NSFA/NSFA_cbe.html).                                                            |                                                                  |
+| the NSFA website at http://maia.usno.navy.mil/NSFA/NSFA_cbe.html).                                                            |
 |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-|  2016 May 31                                                                                                                  |
+|  2017 August 17                                                                                                               |
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
